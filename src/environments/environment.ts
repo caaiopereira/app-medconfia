@@ -4,7 +4,6 @@
 
 export const environment = {
   production: false,
-  CI: false,
   firebase: {
     apiKey: "AIzaSyDsnsFFRSILvC06CgTKFTSBcf2PjWMKk8I",
     authDomain: "medconfia.firebaseapp.com",
