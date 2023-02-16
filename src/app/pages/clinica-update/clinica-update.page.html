@@ -38,14 +38,14 @@
 
       <ion-card-content position="stacked" >
         <ion-label><strong>Horarios:</strong></ion-label>
-        <ion-select [ngModel]="clinicas.horario" name="horario" placeholder="{{clinicas.horario}}" [multiple]="true">
+        <ion-select [ngModel]="clinicas.horario" mode='md' name="horario" placeholder="{{clinicas.horario}}" [multiple]="true">
           <ion-select-option *ngFor="let horarios of listaHorarios" type="text">{{horarios.hora}}</ion-select-option>
         </ion-select>
       </ion-card-content>
 
       <ion-card-content position="stacked" >
         <ion-label><strong>Dias:</strong></ion-label>
-        <ion-select [ngModel]="clinicas.dia" name="dia" placeholder="{{clinicas.dia}}" [multiple]="true">
+        <ion-select [ngModel]="clinicas.dia" mode='md' name="dia" placeholder="{{clinicas.dia}}" [multiple]="true">
           <ion-select-option *ngFor="let data of listaDias" type="text">{{data.dia}}</ion-select-option>
         </ion-select>
       </ion-card-content>

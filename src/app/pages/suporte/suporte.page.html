@@ -42,7 +42,7 @@
         
             <ion-list>
               <ion-item >
-                <ion-select [(ngModel)]='nomeclinica' placeholder="Clinicas">
+                <ion-select [(ngModel)]='nomeclinica' mode='md' placeholder="Clinicas">
                   <ion-select-option *ngFor="let clinicas of listaClinicas" type="text">{{clinicas.nomeclinica}}</ion-select-option>
                 </ion-select>
               </ion-item>
@@ -62,7 +62,7 @@
 
     <ion-button id="open-modal1" expand="block">ACOMPANHAR REQUISIÇÃO</ion-button>
     <p>{{ message2 }}</p>
-    <ion-modal #modal trigger="open-modal1" [presentingElement]="presentingElement">
+    <ion-modal #modal trigger="open-modal1" mode='md' [presentingElement]="presentingElement">
       <ng-template>
         <ion-header>
           <ion-toolbar>

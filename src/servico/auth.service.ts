@@ -7,6 +7,9 @@ import { MenuController } from '@ionic/angular';
   providedIn: 'root'
 })
 export class AuthService {
+  static logoutUser() {
+    throw new Error('Method not implemented.');
+  }
   //Obtem informações do usuario
   logout //Obtem informações do usuario
     () {

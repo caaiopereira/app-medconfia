@@ -30,9 +30,9 @@ export class SuportePage implements OnInit {
   //requisicao
   @ViewChild(IonModal) modal: IonModal;
 
-  message= 'Clique no botão acima para fazer a sua requisição.';
-  message2= 'Clique no botão acima para acompanhar requição.';
-  message3= 'Clique no botão acima e veja os meios de contato da medconfia.';
+  message= 'Faça uma Requisição';
+  message2= 'Acompanhamento da Requisição';
+  message3= 'Contate-nos';
 
 constructor(
   private ClinicaBase: ClinicaService,

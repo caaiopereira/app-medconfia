@@ -33,7 +33,7 @@
 
     <ion-list>
       <ion-item >
-        <ion-select [(ngModel)]='dia' placeholder="Dias da Semana" [multiple]="true">
+        <ion-select [(ngModel)]='dia' placeholder="Dias da Semana" mode='md' [multiple]="true">
           <ion-select-option *ngFor="let dias_da_semana of listaDias" type="text">{{dias_da_semana.dia}}</ion-select-option>
         </ion-select>
       </ion-item>
@@ -41,7 +41,7 @@
     
     <ion-list>
       <ion-item >
-        <ion-select [(ngModel)]='hora' placeholder="Horários de atendimento" [multiple]="true">
+        <ion-select [(ngModel)]='hora' placeholder="Horários de atendimento" mode='md' [multiple]="true">
           <ion-select-option *ngFor="let horarios of listaHorarios" type="text">{{horarios.hora}}</ion-select-option>
         </ion-select>
       </ion-item>
