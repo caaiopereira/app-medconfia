@@ -19,7 +19,7 @@ export class TourPage implements OnInit {
 
   message = 'This modal example uses triggers to automatically open a modal when the button is clicked.';
   name: string;
-  
+
   public email:any;
   public password:any;
   
