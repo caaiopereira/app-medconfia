@@ -19,12 +19,12 @@
 
     <ion-item>
       <ion-label position="stacked">Email</ion-label>
-      <ion-label  name="email" type="email" [ngModel]='clientes.email'></ion-label>
+      <ion-input  name="email" type="email" [disabled]="true" [ngModel]='clientes.email'></ion-input>
     </ion-item>
 
     <ion-item>
       <ion-label  position="stacked">Senha</ion-label>
-      <ion-label name="senha" placeholder="minimo 6 caracteres" type="password" [ngModel]='clientes.senha'></ion-label>
+      <ion-input name="senha" [disabled]="true" type="password" [ngModel]='clientes.senha'></ion-input>
     </ion-item>
     
     <ion-item>
