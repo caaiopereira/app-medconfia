@@ -29,6 +29,7 @@
     "firebase": "^9.16.0",
     "ionicons": "^6.0.3",
     "rxjs": "~7.5.0",
+    "sourcemap-codec": "^1.4.8",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.7.1",
     "tslib": "^2.3.0",
