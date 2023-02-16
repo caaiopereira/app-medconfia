@@ -5,6 +5,7 @@ import { Dias } from 'src/model/dias.model';
 import { Horario } from 'src/model/horarios.model';
 import { ClinicaService } from 'src/servico/clinica.service';
 import { DiasService } from 'src/servico/dias.service';
+
 import { HorariosService } from 'src/servico/horarios.service';
 import Swal from 'sweetalert2';
 

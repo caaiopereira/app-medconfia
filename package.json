@@ -26,7 +26,7 @@
     "@capacitor/keyboard": "4.1.1",
     "@capacitor/status-bar": "4.1.1",
     "@ionic/angular": "^6.1.9",
-    "firebase": "^9.16.0",
+    "firebase": "^9.17.1",
     "ionicons": "^6.0.3",
     "rxjs": "~7.5.0",
     "sourcemap-codec": "^1.4.8",

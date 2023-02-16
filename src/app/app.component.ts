@@ -13,5 +13,6 @@ export class AppComponent {
     { title: 'Suporte', url: '/suporte', icon: 'construct' },
   ];
   public labels = [];
+
   constructor() {}
 }
