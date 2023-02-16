@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title><strong>ATUALIZAR</strong></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <form #form="ngForm" (ngSubmit)="update(form)">
+
+    <ion-item>
+      <ion-label position="stacked">Nome</ion-label>
+      <ion-input name="nomecliente" type="text" [ngModel]="clientes.nomecliente"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input  name="email" type="email" [ngModel]='clientes.email'></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label  position="stacked">Senha</ion-label>
+      <ion-input name="senha" placeholder="minimo 6 caracteres" type="password" [ngModel]='clientes.senha'></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label position="stacked">CPF</ion-label>
+      <ion-input name="cpf"type="number" [ngModel]='clientes.cpf'></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Data</ion-label>
+      <ion-input name="data" type="date" [ngModel]='clientes.data'></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Endereço</ion-label>
+      <ion-input name="endereco" type="text" [ngModel]='clientes.endereco'></ion-input>
+    </ion-item>
+
+      <ion-item position="stacked" >
+        <ion-select [ngModel]="clientes.genero"  name="genero" placeholder="{{clientes.genero}}">
+          <ion-select-option  name="Masculino" type="text">Masculino</ion-select-option>
+          <ion-select-option  name="Feminino" type="text">Feminino</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+
+    <ion-item>
+      <ion-label position="stacked">RG</ion-label>
+      <ion-input name="rg" type="number" [ngModel]='clientes.rg'></ion-input>
+    </ion-item>
+
+    <ion-item position="stacked">
+      <ion-select [ngModel]='clientes.tipo' name="tipo" placeholder="{{clientes.tipo}}">
+        <ion-select-option name="A+" type="text">A+</ion-select-option>
+        <ion-select-option name="B+" type="text">B+</ion-select-option>
+        <ion-select-option name="AB+" type="text">AB+</ion-select-option>
+        <ion-select-option name="O+" type="text">O+</ion-select-option>
+        <ion-select-option name="A-" type="text">A-</ion-select-option>
+        <ion-select-option name="AB-" type="text">AB-</ion-select-option>
+        <ion-select-option name="O-" type="text">O-</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Alergias</ion-label>
+      <ion-input name="alergias" type="text" [ngModel]='clientes.alergias'></ion-input>
+    </ion-item>
+
+    <ion-button type="submit" color="success" expand="block">Atualizar</ion-button>
+  </form>
+
+</ion-content>

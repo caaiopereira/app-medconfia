@@ -1,0 +1,76 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><strong>INICIO</strong></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides pager="true"  [options]="slideOpts">
+    <ion-slide >
+      <ion-card><img src="assets/img/1.png" /></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card><img src="assets/img/2.png" /></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card><img src="assets/img/3.png" /></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card><img src="assets/img/4.png" /></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card><img src="assets/img/5.png" /></ion-card>
+    </ion-slide>
+  </ion-slides>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" size-md="4" size-lg="2"><ion-button  id="open-modal"expand="block">Login</ion-button>
+        <ion-modal trigger="open-modal" (willDismiss)="onWillDismiss($event)">
+          <ng-template>
+            <ion-header>
+              
+              <ion-toolbar>
+                <ion-buttons slot="end">
+                  <ion-icon size="large" class="buttonClose" (click)="cancel()" name="close-outline"></ion-icon>
+                </ion-buttons>
+                <ion-title><strong>LOGIN</strong></ion-title>
+              </ion-toolbar>
+            </ion-header>
+
+
+<ion-content class="ion-padding">
+  <ion-card>
+    <div class="form">
+      <ion-card-header>
+        <img src="assets/img/logo.png"/>  
+      </ion-card-header>
+    <ion-item>
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input type="email" [(ngModel)]='email'></ion-input>
+    </ion-item>
+    <br>
+
+    <ion-item>
+      <ion-label position="stacked">Password</ion-label>
+      <ion-input type="password" [(ngModel)]='password'></ion-input>
+    </ion-item>
+
+    <ion-button (click)='login()' expand='block'>Entrar</ion-button>
+    <br> 
+  </div>
+    </ion-card>
+</ion-content>
+          </ng-template>
+        </ion-modal>
+      </ion-col>
+  <ion-col size="6" size-md="4" size-lg="2"><ion-button id="open-modal-cad" (click)='cadastrar()' type="submit" fill="outline" expand="block">Cadastro</ion-button>
+      </ion-col>
+    </ion-row>  
+  </ion-grid>
+
+</ion-content>
+
+
+

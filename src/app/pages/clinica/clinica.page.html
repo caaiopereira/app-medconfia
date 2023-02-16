@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title><strong>CLINICAS</strong></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+      <ion-card-content>
+        <ion-list> 
+          <ion-item-sliding *ngFor="let clinicas of listaClinicas">
+            <ion-card>
+            <ion-item>
+            <ion-thumbnail><img alt="Clinica" src="https://cdn-icons-png.flaticon.com/512/2222/2222671.png" /></ion-thumbnail>   
+            <ion-card-header>
+            <ion-card-title><strong>{{clinicas.nomeclinica}}</strong></ion-card-title>
+            <ion-card-subtitle><strong>Endereço: </strong>{{clinicas.endereco}}</ion-card-subtitle>
+            <ion-card-subtitle><strong>Bairro: </strong>{{clinicas.bairro}}</ion-card-subtitle>
+            <ion-card-subtitle><strong>Dia: </strong>{{clinicas.dia}}</ion-card-subtitle>
+            <ion-card-subtitle><strong>Horario: </strong>{{clinicas.horario}}</ion-card-subtitle>
+            <ion-icon class="buttonEdit" color="primary" size="large" [routerLink]="['/clinica-update',clinicas.id]" name="create-outline"></ion-icon>
+            <ion-icon class="buttonDel" size="large" (click)="deletar(clinicas.id)" name="trash">Excluir</ion-icon>
+            </ion-card-header>
+            </ion-item>
+        </ion-card>
+          </ion-item-sliding>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+  
+
+
+  </ion-content>
+  <button [routerLink]="['/cadastro-clinica']">
+    <ion-fab vertical="bottom" horizontal="end" >
+      <ion-fab-button >
+        <ion-icon name="add-outline"></ion-icon>
+      </ion-fab-button>
+    </ion-fab> 
+  </button>
+  

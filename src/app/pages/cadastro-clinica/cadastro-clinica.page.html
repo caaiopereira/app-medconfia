@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title><strong>CADASTRO</strong></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="form">
+
+    <ion-item>
+      <ion-label position="stacked">Nome da Clinica</ion-label>
+      <ion-input type="text" [(ngModel)]="nomeclinica"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">CNPJ</ion-label>
+      <ion-input  type="number" [(ngModel)]='CNPJ'></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label position="stacked">Endereço</ion-label>
+      <ion-input  type="text" [(ngModel)]='endereco'></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label position="stacked">Bairro: </ion-label>
+      <ion-input  type="text" [(ngModel)]='bairro'></ion-input>
+    </ion-item>
+
+    <ion-list>
+      <ion-item >
+        <ion-select [(ngModel)]='dia' placeholder="Dias da Semana" [multiple]="true">
+          <ion-select-option *ngFor="let dias_da_semana of listaDias" type="text">{{dias_da_semana.dia}}</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+    
+    <ion-list>
+      <ion-item >
+        <ion-select [(ngModel)]='hora' placeholder="Horários de atendimento" [multiple]="true">
+          <ion-select-option *ngFor="let horarios of listaHorarios" type="text">{{horarios.hora}}</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+    <ion-button (click)='cadastrar()' expand='block'>Cadastrar</ion-button>
+  </div>
+
+</ion-content>

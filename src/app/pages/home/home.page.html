@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>  
+    <ion-title><strong>HOME</strong></ion-title>
+          <ion-buttons slot="end">
+            <ion-icon size="large" class="buttonClose" (click)="logout()" name="exit-outline"></ion-icon>
+          </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-grid>
+    <ion-row>
+    <ion-col size="10" offset="1">
+        <button [routerLink]="['/agendamento']">
+          <ion-card>
+            <img alt="Agendamento" src="assets/img/marcarconsulta.png" />
+            <ion-card-header>
+              <ion-card-title><strong>Agendamento</strong></ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>   
+    <ion-row>    
+      <ion-col size="10" offset="1">
+        <button [routerLink]="['/historico']">
+          <ion-card>
+            <img alt="Historico" src="assets/img/histórico.png"   />
+            <ion-card-header>
+              <ion-card-title><strong>Histórico</strong></ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </button>
+      </ion-col>
+    </ion-row> 
+  </ion-grid>  
+    
+
+  <ion-grid>
+    <ion-row > 
+      <ion-col size="10" offset="1">
+        <button [routerLink]="['/clinica']">
+          <ion-card>
+            <img alt="Clinicas"  src="assets/img/clinicas.png" />
+            <ion-card-header>
+              <ion-card-title><strong>Clinicas</strong></ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </button>
+      </ion-col>
+      </ion-row>
+  </ion-grid>
+
+</ion-content>
+  
+  
+
+
+
+

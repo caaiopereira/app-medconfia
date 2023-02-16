@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title><strong>ATUALIZAR</strong></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-card>
+    <img [src]="image" />
+    <ion-card-header>
+      <ion-card-title>{{clinicas.nomeclinica}}</ion-card-title>
+    </ion-card-header>
+    
+    <form #form="ngForm" (ngSubmit)="update(form)">
+      <ion-card-content>
+        <ion-label><strong>Nome</strong></ion-label>
+        <ion-input type="text" name="nomeclinica" [ngModel]="clinicas.nomeclinica"></ion-input>
+      </ion-card-content>
+
+      <ion-card-content>
+        <ion-label><strong>CNPJ:</strong></ion-label>
+        <ion-input arrow="4" type="text" name="cnpj" [ngModel]="clinicas.cnpj"></ion-input>
+      </ion-card-content>
+
+      <ion-card-content>
+        <ion-label><strong>Endereço:</strong></ion-label>
+        <ion-textarea type="text" name="endereco" [ngModel]="clinicas.endereco"></ion-textarea>
+      </ion-card-content>
+      
+      <ion-card-content>
+        <ion-label><strong>Bairro:</strong></ion-label>
+        <ion-input arrow="4" type="text" name="bairro" [ngModel]="clinicas.bairro"></ion-input>
+      </ion-card-content>
+
+      <ion-card-content position="stacked" >
+        <ion-label><strong>Horarios:</strong></ion-label>
+        <ion-select [ngModel]="clinicas.horario" name="horario" placeholder="{{clinicas.horario}}" [multiple]="true">
+          <ion-select-option *ngFor="let horarios of listaHorarios" type="text">{{horarios.hora}}</ion-select-option>
+        </ion-select>
+      </ion-card-content>
+
+      <ion-card-content position="stacked" >
+        <ion-label><strong>Dias:</strong></ion-label>
+        <ion-select [ngModel]="clinicas.dia" name="dia" placeholder="{{clinicas.dia}}" [multiple]="true">
+          <ion-select-option *ngFor="let data of listaDias" type="text">{{data.dia}}</ion-select-option>
+        </ion-select>
+      </ion-card-content>
+
+
+      <ion-button type="submit" color="success" expand="block">Atualizar</ion-button>
+    </form>
+    
+  </ion-card>
+</ion-content>

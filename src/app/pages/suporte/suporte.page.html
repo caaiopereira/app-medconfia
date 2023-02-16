@@ -1,0 +1,156 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>  
+    <ion-title><strong>SUPORTE</strong></ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>  
+
+  <ion-card>
+    <ion-card-header>
+      <img src="assets/img/suporte.png"/>  
+    </ion-card-header>  
+    <ion-card-content>
+      <ion-button id="openmodal" expand="block">FAÇA SUA REQUISIÇÃO</ion-button>
+    <p>{{ message }}</p>
+    <ion-modal trigger="openmodal" (willDismiss)="onWillDismiss($event)">
+      <ng-template>
+        <ion-header>
+          <ion-toolbar>
+            <ion-buttons slot="end">
+              <ion-icon size="large" class="buttonClose" (click)="cancel()" name="close-outline"></ion-icon>
+            </ion-buttons>
+            <ion-title><strong>REQUISIÇÃO</strong></ion-title>
+          </ion-toolbar>
+        </ion-header>
+
+        
+        <ion-content class="ion-padding">
+          <div class="form">
+  
+            <ion-item>
+              <ion-label position="stacked">Nome:</ion-label>
+              <ion-input type="text" [(ngModel)]='nomecliente'></ion-input>
+            </ion-item>
+            
+            <ion-item>
+              <ion-label position="stacked">Email:</ion-label>
+              <ion-input type="text" [(ngModel)]='email'></ion-input>
+            </ion-item>
+        
+            <ion-list>
+              <ion-item >
+                <ion-select [(ngModel)]='nomeclinica' placeholder="Clinicas">
+                  <ion-select-option *ngFor="let clinicas of listaClinicas" type="text">{{clinicas.nomeclinica}}</ion-select-option>
+                </ion-select>
+              </ion-item>
+            </ion-list>
+      
+              <ion-item >
+                <ion-label position="stacked">Assunto da requisição</ion-label>
+              <ion-textarea type="text" placeholder="Assunto" [(ngModel)]="assunto"></ion-textarea>
+              </ion-item>
+            <ion-button (click)='requisicao()' expand='block'>Enviar</ion-button>
+          </div>
+
+
+        </ion-content>
+      </ng-template>
+    </ion-modal>
+
+    <ion-button id="open-modal1" expand="block">ACOMPANHAR REQUISIÇÃO</ion-button>
+    <p>{{ message2 }}</p>
+    <ion-modal #modal trigger="open-modal1" [presentingElement]="presentingElement">
+      <ng-template>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title><strong>ACOMPANHE</strong></ion-title>
+            <ion-buttons slot="end">
+              <ion-icon size="large" class="buttonClose" (click)="modal.dismiss()" name="close-outline"></ion-icon>
+            </ion-buttons>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content>
+          <ion-list> 
+    <ion-item-sliding *ngFor="let requisicoes of listaRequisicoes">
+  
+      <ion-card>
+        <ion-item>
+        <ion-thumbnail>
+          <img alt="Acompanhe" src="https://cdn-icons-png.flaticon.com/512/5199/5199662.png" />
+        </ion-thumbnail> 
+        <ion-card-header>
+        <ion-card-subtitle><strong>Requisicao:</strong> {{requisicoes.id}}</ion-card-subtitle>
+        <ion-card-title><strong>Cliente:</strong> {{requisicoes.nomecliente}}</ion-card-title>
+        <ion-card-subtitle><strong>Clinica:</strong> {{requisicoes.nomeclinica}}</ion-card-subtitle>
+        <ion-card-subtitle><strong>Assunto:</strong> {{requisicoes.assunto}}</ion-card-subtitle>
+
+            </ion-card-header>
+          </ion-item>
+          </ion-card>
+        </ion-item-sliding>
+        </ion-list>
+        </ion-content>
+      </ng-template>
+    </ion-modal>
+
+    <ion-button expand="block" (click)="setOpen(true)">MEIOS DE CONTATO</ion-button>
+    <p>{{ message3 }}</p>
+    <ion-modal [isOpen]="isModalOpen">
+      <ng-template>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title><strong>CONTATO</strong></ion-title>
+            <ion-buttons slot="end">
+              <ion-icon size="large" class="buttonClose" (click)="setOpen(false)" name="close-outline"></ion-icon>
+            </ion-buttons>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content class="ion-padding">
+          <img src="assets/img/contato.png"/> 
+          <ion-list>
+
+            <ion-item>
+            <ion-label>Email</ion-label> 
+              <ion-list>
+              <ion-label>medconfiaspt@confia.com</ion-label>
+            </ion-list>
+            </ion-item>
+            <ion-item>
+              <ion-label>Telefone</ion-label>
+              <ion-label>(21)4002-8922</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>Redes sociais</ion-label>
+              <ion-list>
+              <ion-label>Twitter:@med_confia</ion-label>
+              <ion-label>Instagram:@medconfia</ion-label>
+            </ion-list>
+            </ion-item>
+            <ion-item>
+              <ion-label>Whatsapp</ion-label>
+              <ion-label>(21)98877-6655</ion-label>
+            </ion-item>
+          </ion-list>
+        </ion-content>
+      </ng-template>
+    </ion-modal>
+
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
+
+
+          
+
+    
+ 
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>  
+    <ion-title><strong>PERFIL</strong></ion-title>
+</ion-toolbar>
+</ion-header>
+<ion-content>
+
+
+    <ion-card>
+    
+
+      <ion-card-content>
+        <ion-list>
+          <ion-item-sliding *ngFor="let clientes of listaClientes">
+            <ion-card [routerLink]="['/perfil-update',clientes.id]">
+            <ion-item>
+            <ion-thumbnail><img alt="Perfil" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"/></ion-thumbnail>   
+            <ion-card-header >
+            <ion-card-title><strong>Nome: </strong>{{clientes.nomecliente}}</ion-card-title>
+            <ion-card-subtitle><strong>Endereço: </strong>{{clientes.endereco}}</ion-card-subtitle>
+            <ion-card-subtitle><strong>CPF:</strong>{{clientes.cpf}}</ion-card-subtitle>
+            <ion-card-subtitle><strong>Email: </strong>{{clientes.email}}</ion-card-subtitle>
+            <ion-card-subtitle><strong>Alergia: </strong>{{clientes.alergias}}</ion-card-subtitle>
+            <ion-card-subtitle><strong>Genero: </strong>{{clientes.genero}}</ion-card-subtitle>
+            <ion-card-subtitle><strong>Tipo: </strong>{{clientes.tipo}}</ion-card-subtitle>              
+            </ion-card-header>
+            </ion-item>
+        </ion-card >
+      </ion-item-sliding>
+        </ion-list>
+      </ion-card-content>
+</ion-card>
+
+</ion-content>

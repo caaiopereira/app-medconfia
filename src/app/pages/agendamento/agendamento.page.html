@@ -1,0 +1,71 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title><strong>AGENDAMENTO</strong></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-content class="ion-pading">
+    <div class="form">
+  
+      <ion-item>
+        <ion-label position="stacked">Nome</ion-label>
+        <ion-input type="text" [(ngModel)]='nomecliente'></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">CPF</ion-label>
+        <ion-input type="number" [(ngModel)]='cpf'></ion-input>
+      </ion-item>
+
+      <ion-list>
+        <ion-item>
+          <ion-select [(ngModel)]='genero' placeholder="Genero">
+            <ion-select-option type="text">Masculino</ion-select-option>
+            <ion-select-option type="text">Feminino</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+  
+      <ion-list>
+        <ion-item >
+          <ion-select [(ngModel)]='nomeclinica' placeholder="Clinica">
+            <ion-select-option *ngFor="let clinicas of listaClinicas" type="text">{{clinicas.nomeclinica}}</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+
+      <ion-list>
+        <ion-item >
+          <ion-select [(ngModel)]='especialidade' placeholder="Especialidade">
+            <ion-select-option *ngFor="let especialidade of listaEspecialidades" type="text">{{especialidade.nome}}</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+
+      <ion-list >
+        <ion-item >
+          <ion-select [(ngModel)]='data' placeholder="Data">
+            <ion-select-option *ngFor="let data of listaDias" type="text">{{data.dia}}</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+
+      <ion-list>
+        <ion-item >
+          <ion-select [(ngModel)]='horario' placeholder="Horario">
+            <ion-select-option *ngFor="let horarios of listaHorarios" type="text">{{horarios.hora}}</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+      
+      <ion-button (click)='agendamento()' expand='block'>Agendar</ion-button>
+    </div>
+  </ion-content>
+
+
+</ion-content>

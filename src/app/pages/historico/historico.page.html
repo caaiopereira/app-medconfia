@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+      <ion-title><strong>HISTORICO</strong></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list> 
+    <ion-item-sliding *ngFor="let agendamentos of listaAgendamentos">
+  
+      <ion-card>
+        <ion-item>
+        <ion-thumbnail>
+          <img alt="Silhouette of mountains" src="https://cdn-icons-png.flaticon.com/512/4670/4670466.png" />
+        </ion-thumbnail> 
+        <ion-card-header>
+        <ion-card-subtitle><strong>Consulta:</strong> {{agendamentos.id}}</ion-card-subtitle>
+        <ion-card-title><strong>Paciente:</strong> {{agendamentos.nomecliente}}</ion-card-title>
+        <ion-card-subtitle><strong>Clinica:</strong> {{agendamentos.nomeclinica}}</ion-card-subtitle>
+        <ion-card-subtitle><strong>Especialidade:</strong> {{agendamentos.especialidade}}</ion-card-subtitle>
+        <ion-card-subtitle><strong>Dia:</strong> {{agendamentos.data}}</ion-card-subtitle>
+        <ion-card-subtitle><strong>Horário:</strong> {{agendamentos.horario}}</ion-card-subtitle>
+      </ion-card-header>
+       
+
+    </ion-item>
+  </ion-card>
+
+    </ion-item-sliding>
+  </ion-list>
+ 
+
+</ion-content>
