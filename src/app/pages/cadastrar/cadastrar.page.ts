@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuController } from '@ionic/angular';
 import { AuthService } from 'src/servico/auth.service';
 import Swal from 'sweetalert2';
 
@@ -21,7 +22,8 @@ export class CadastrarPage implements OnInit {
   public alergias: any;
 
   constructor(
-    private authentication: AuthService
+    private authentication: AuthService,
+    public Menu: MenuController,
     ){}
 
   ngOnInit() {
@@ -49,7 +51,9 @@ export class CadastrarPage implements OnInit {
             text:   "Seu cadastro foi feito",
             icon: 'success',
             heightAuto: false
+
           });
+          this.Menu.enable(true);
         })
       }
     },err=>{

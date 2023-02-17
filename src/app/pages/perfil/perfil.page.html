@@ -15,7 +15,7 @@
       <ion-card-content>
         <ion-list>
           <ion-item-sliding *ngFor="let clientes of listaClientes">
-            <ion-card [routerLink]="['/perfil-update',clientes.id]">
+            <ion-card>
             <ion-item>
             <ion-thumbnail><img alt="Perfil" src="https://cdn-icons-png.flaticon.com/512/149/149071.png"/></ion-thumbnail>   
             <ion-card-header >
@@ -25,7 +25,9 @@
             <ion-card-subtitle><strong>Email: </strong>{{clientes.email}}</ion-card-subtitle>
             <ion-card-subtitle><strong>Alergia: </strong>{{clientes.alergias}}</ion-card-subtitle>
             <ion-card-subtitle><strong>Genero: </strong>{{clientes.genero}}</ion-card-subtitle>
-            <ion-card-subtitle><strong>Tipo: </strong>{{clientes.tipo}}</ion-card-subtitle>              
+            <ion-card-subtitle><strong>Tipo: </strong>{{clientes.tipo}}</ion-card-subtitle>
+            <ion-icon class="buttonEdit" color="primary" size="large" [routerLink]="['/perfil-update',clientes.id]" name="create-outline"></ion-icon>
+            <ion-icon class="buttonDel" size="large" (click)="deletar(clientes.id)" name="trash"></ion-icon>              
             </ion-card-header>
             </ion-item>
         </ion-card >

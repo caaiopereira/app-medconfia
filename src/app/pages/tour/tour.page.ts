@@ -87,5 +87,9 @@ cadastrar(){
   this.router.navigateByUrl('cadastrar');
 }
 
+ esqueci_senha(){
+  this.router.navigateByUrl('esqueci-senha');
+ }
+
 
 }

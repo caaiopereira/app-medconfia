@@ -1,9 +1,3 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title><strong>INICIO</strong></ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
   <ion-slides pager="true"  [options]="slideOpts">
     <ion-slide >
@@ -65,11 +59,16 @@
           </ng-template>
         </ion-modal>
       </ion-col>
-  <ion-col size="6" size-md="4" size-lg="2"><ion-button id="open-modal-cad" (click)='cadastrar()' type="submit" fill="outline" expand="block">Cadastro</ion-button>
+      <ion-col size="6" size-md="4" size-lg="2"><ion-button id="open-modal-cad" (click)='cadastrar()' type="submit" fill="outline" expand="block">Cadastro</ion-button>
       </ion-col>
     </ion-row>  
+    <ion-row>
+      <ion-col>
+      <ion-button (click)='esqueci_senha()' expand="block">Esqueci minha senha</ion-button>
+    </ion-col>
+    </ion-row>
   </ion-grid>
-
+  
 </ion-content>
 
 

@@ -51,5 +51,8 @@ export class AuthService {
       return this.angularAuth;
     }
 
+    // delAuth(uid){
+    //   this.firestore.
+    // }
     
 }

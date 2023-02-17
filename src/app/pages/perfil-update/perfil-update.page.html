@@ -29,7 +29,7 @@
     
     <ion-item>
       <ion-label position="stacked">CPF</ion-label>
-      <ion-input name="cpf"type="number" [ngModel]='clientes.cpf'></ion-input>
+      <ion-input name="cpf"type="number" [disabled]="true" [ngModel]='clientes.cpf'></ion-input>
     </ion-item>
 
     <ion-item>
@@ -56,7 +56,7 @@
     </ion-item>
 
     <ion-item position="stacked">
-      <ion-select [ngModel]='clientes.tipo' name="tipo" placeholder="{{clientes.tipo}}">
+      <ion-select [ngModel]='clientes.tipo' [disabled]="true" name="tipo" placeholder="{{clientes.tipo}}">
         <ion-select-option name="A+" type="text">A+</ion-select-option>
         <ion-select-option name="B+" type="text">B+</ion-select-option>
         <ion-select-option name="AB+" type="text">AB+</ion-select-option>

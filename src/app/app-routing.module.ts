@@ -52,6 +52,10 @@ const routes: Routes = [
   {
     path: 'perfil-update/:id',
     loadChildren: () => import('./pages/perfil-update/perfil-update.module').then( m => m.PerfilUpdatePageModule), canActivate: [AuthGuard]
+  },
+  {
+    path: 'esqueci-senha',
+    loadChildren: () => import('./pages/esqueci-senha/esqueci-senha.module').then( m => m.EsqueciSenhaPageModule)
   }
 ];
 
