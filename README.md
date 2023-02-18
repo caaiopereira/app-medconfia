@@ -50,8 +50,10 @@
 >- Desenvolver o Layout<br>
 >- Wireframe<br>
 >- Cadastro de Cliente<br>
->- <br>
->- <br>
+>- Criar serviço de alert<br>
+>- Logotipo do app<br>
+>- Desenvolvimento do slide de apresentação de novos usuários<br>
+>- Criação do serviço e Login<br>
 
 2 - Migrar o banco de dados do APP para o Firebase<br>
 >- Criar o projeto no firebase<br>
