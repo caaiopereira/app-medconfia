@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from 'src/servico/auth.service';
 
 @Component({
   selector: 'app-esqueci-senha',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EsqueciSenhaPage implements OnInit {
 
-  constructor() { }
+  
+  constructor(
+    private authentication: AuthService,
+  ) { }
 
   ngOnInit() {
   }
 
+  recoverPassword(form: any){
+    this.authentication.resetPassword(form.value.email);
+  }
+  
 }
+
+      

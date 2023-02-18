@@ -88,6 +88,8 @@ cadastrar(){
 }
 
  esqueci_senha(){
+  this.Menu.enable(false);
+  this.modal.dismiss(null, 'cancel');
   this.router.navigateByUrl('esqueci-senha');
  }
 

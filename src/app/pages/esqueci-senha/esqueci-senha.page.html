@@ -1,9 +1,24 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>esqueci_senha</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Recuperação</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+  <form #form="ngForm" (ngSubmit)="recoverPassword(form)">
+  <ion-item>
+    <ion-label position="stacked">Email</ion-label>
+    <ion-input name="email" type="email" ngModel required></ion-input>
+  </ion-item>
+  <br>
+  <ion-button type="submit" expand='block'>Enviar</ion-button>
+  <br> 
+</form>
+
+
 
 </ion-content>

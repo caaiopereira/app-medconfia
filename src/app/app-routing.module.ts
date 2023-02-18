@@ -55,7 +55,7 @@ const routes: Routes = [
   },
   {
     path: 'esqueci-senha',
-    loadChildren: () => import('./pages/esqueci-senha/esqueci-senha.module').then( m => m.EsqueciSenhaPageModule)
+    loadChildren: () => import('./pages/esqueci-senha/esqueci-senha.module').then( m => m.EsqueciSenhaPageModule), canActivate: [TourGuard]
   }
 ];
 

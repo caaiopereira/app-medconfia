@@ -51,8 +51,9 @@ export class AuthService {
       return this.angularAuth;
     }
 
-    // delAuth(uid){
-    //   this.firestore.
-    // }
-    
+
+    resetPassword(email){
+      
+      return this.angularAuth.sendPasswordResetEmail(email)
+    }
 }
