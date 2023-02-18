@@ -1,6 +1,8 @@
 # Projeto Final - Técnico em Informática<br> 
 **PROJETO INTEGRADOR: DESENVOLVER UM PRODUTO INOVADOR**<br> 
 
+
+
 <h3>Ferramentas Utilizadas:</h3><br> 
 
 ![image](https://user-images.githubusercontent.com/56053290/218258400-46b576f3-03c0-4557-b984-189c104e5a51.png)
@@ -64,4 +66,4 @@
 >- Criar o serviço para manipulação de banco de dados<br>
 >- Implementar o firebase
 
-
+#### Grupo:  Danilo, Caio, Khadija, Vitor Miranda e Acelino
