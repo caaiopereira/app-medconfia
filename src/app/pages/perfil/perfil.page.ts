@@ -33,7 +33,8 @@ export class PerfilPage implements OnInit {
     this.ClientesBase.consultar().subscribe( results => this.listaClientes = results);
     }
 
-    async deletar(id:string){
+    async deletar(uid:string){
+            this.AuthService.deleteUser(uid);
               try{
                 Swal.fire({
                   title: 'Atenção!',
@@ -47,13 +48,14 @@ export class PerfilPage implements OnInit {
                 }).then(async (result) => {
                   if (result.isConfirmed) {
                     this.Menu.enable(false);
-                    this.ClientesBase.deletar(id);
-                    await this.AuthService.logoutUser();                    
+                    this.ClientesBase.deletar(uid);
                   }
-              }) ; 
+                }) ; 
               }catch(error){
                 console.error(error);
-              }
+              }finally{
+              await this.AuthService.logoutUser();
+              }                    
             }
                   
       

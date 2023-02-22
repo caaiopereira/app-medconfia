@@ -27,7 +27,7 @@
             <ion-card-subtitle><strong>Genero: </strong>{{clientes.genero}}</ion-card-subtitle>
             <ion-card-subtitle><strong>Tipo: </strong>{{clientes.tipo}}</ion-card-subtitle>
             <ion-icon class="buttonEdit" color="primary" size="large" [routerLink]="['/perfil-update',clientes.id]" name="create-outline"></ion-icon>
-            <ion-icon class="buttonDel" size="large" (click)="deletar(clientes.id)" name="trash"></ion-icon>              
+            <ion-icon class="buttonDel" size="large" (click)="deletar(clientes.uid)" name="trash"></ion-icon>              
             </ion-card-header>
             </ion-item>
         </ion-card >

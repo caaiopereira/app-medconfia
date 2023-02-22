@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { MenuController } from '@ionic/angular';
+import * as firebase from 'firebase/app';
 
 @Injectable({
   providedIn: 'root'
@@ -26,11 +27,16 @@ export class AuthService {
 
     loginUser(user){
     return this.angularAuth.signInWithEmailAndPassword(user.email, user.password);
+    
     }
 
     //create user
     createUser(user){
       return this.angularAuth.createUserWithEmailAndPassword(user.email, user.password);
+    }
+
+    deleteUser(uid){  
+    return this.angularAuth.currentUser.then(user => user?.delete());
     }
 
     saveDetails(data) {

@@ -6,6 +6,8 @@ import { IonModal, MenuController } from '@ionic/angular';
 import { OverlayEventDetail } from '@ionic/core/components';
 import { AuthService } from 'src/servico/auth.service';
 
+
+
 import Swal from 'sweetalert2';
 
 @Component({
@@ -22,6 +24,7 @@ export class TourPage implements OnInit {
 
   public email:any;
   public password:any;
+  
   
   cancel() {
     this.modal.dismiss(null, 'cancel');
@@ -40,6 +43,7 @@ export class TourPage implements OnInit {
   constructor(
     public router: Router,
     private authencation: AuthService,
+
     public Menu: MenuController
     ) { }
     
@@ -71,6 +75,7 @@ login(){
         this.router.navigateByUrl('home');
         this.cancel()
         this.Menu.enable(true);
+        
       });
     }
   },err=>{
@@ -95,3 +100,7 @@ cadastrar(){
 
 
 }
+function results(): string {
+  throw new Error('Function not implemented.');
+}
+
