@@ -2,17 +2,9 @@
 **PROJETO INTEGRADOR: DESENVOLVER UM PRODUTO INOVADOR**<br> 
 
 
-
-<h3>Ferramentas Utilizadas:</h3><br> 
-
-![image](https://user-images.githubusercontent.com/56053290/218258400-46b576f3-03c0-4557-b984-189c104e5a51.png)
-![image](https://user-images.githubusercontent.com/56053290/218258497-d0ddc8bf-a8dc-45b2-aba5-4614700e73d5.png)
-<img src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png" width="47px" />
-<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ionic-icon.png" width="45px" />
-<img src="https://karmanivero.us/assets/images/logo-vercel.png" width="55px" />
-<img src="https://seeklogo.com/images/A/angular-icon-logo-9946B9795D-seeklogo.com.png" width="45px" />
-<img src="https://img.icons8.com/color/480/firebase.png" width="45px" />
-
+<p align="center" dir="auto">
+<img  src="https://raw.githubusercontent.com/caaiopereira/app-medconfia/main/src/assets/img/logo.png" /> 
+</p>
 
 
 
@@ -70,6 +62,21 @@
 >- Configurar o arquivo envirorments do Projeto Ionic (Colar as informações do App Firebase)<br>
 >- Alterar a opção strict para false dentro do arquivo tsconfig.json<br>
 >- Criar o serviço para manipulação de banco de dados<br>
->- Implementar o firebase
+>- Implementar o firebase<br>
+
+
+<h1>Ferramentas Utilizadas:</h1><br> 
+
+![image](https://user-images.githubusercontent.com/56053290/218258400-46b576f3-03c0-4557-b984-189c104e5a51.png)
+![image](https://user-images.githubusercontent.com/56053290/218258497-d0ddc8bf-a8dc-45b2-aba5-4614700e73d5.png)
+<img src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png" width="47px" />
+<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ionic-icon.png" width="45px" />
+<img src="https://karmanivero.us/assets/images/logo-vercel.png" width="55px" />
+<img src="https://seeklogo.com/images/A/angular-icon-logo-9946B9795D-seeklogo.com.png" width="45px" />
+<img src="https://img.icons8.com/color/480/firebase.png" width="45px" />
+
+
+
+
 
 #### Grupo:  Danilo, Caio, Khadija, Vitor Miranda e Acelino
