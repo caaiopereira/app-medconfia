@@ -61,7 +61,7 @@
 >- Desenvolvimento do slide de apresentação de novos usuários<br>
 >- Criação do serviço e Login<br>
 >- Esqueci minha senha<br>
->- Route Autoguard<br>
+>- Router Autoguard<br>
 
 2 - Migrar o banco de dados do APP para o Firebase<br>
 >- Criar o projeto no firebase<br>
