@@ -7,7 +7,6 @@
 </p>
 
 
-
 <h1>Introdução</h1>
 
 <h3>◼ Startup</h3>
@@ -78,5 +77,9 @@
 
 
 
-
-#### Grupo:  Danilo, Caio, Khadija, Vitor Miranda e Acelino
+<h1>GRUPO:</h1><br> 
+Danilo Freitas
+Caio Pereira
+Khadija Nascimento
+Vitor Miranda 
+Acelino Junior
