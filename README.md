@@ -147,6 +147,10 @@ Campanhas de marketing de conteúdo com dicas
 4. Faça o push para a branch: `git push origin feature/minha-nova-feature`
 5. Envie uma solicitação de pull
 
+## VISUALIZAR EM MODO MOBILE: 
+
+https://app-medconfia.vercel.app/
+
 
 
 ## GRUPO:
