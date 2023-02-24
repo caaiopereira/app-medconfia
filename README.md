@@ -13,10 +13,10 @@
 #### 1 - Em primeiro lugar comece montando sua equipe. A montagem de uma equipe pode definir o sucesso ou o insucesso da sua startup: 
 
 ```
-Para a nossa startup, iremos buscar uma equipe que possua experiência em desenvolvimento de aplicativos móveis, com habilidades em 
-linguagens como Angular, Ionic e Firebase para construção do nosso app Medconfia. Além disso, é importante ter em nossa equipe um 
-profissional com experiência em marketing digital e gestão de projetos, para que possamos atingir nossos objetivos de maneira 
-eficaz
+Para a nossa startup, iremos buscar uma equipe que possua experiência em desenvolvimento de aplicativos 
+móveis, com habilidades em linguagens como Angular, Ionic e Firebase para construção do nosso app Medconfia. 
+Além disso, é importante ter em nossa equipe um profissional com experiência em marketing digital e gestão 
+de projetos, para que possamos atingir nossos objetivos de maneira eficaz
 ```
  
 #### 2 - Junto com sua equipe defina sua ideia: 
