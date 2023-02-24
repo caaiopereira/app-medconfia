@@ -121,6 +121,18 @@ Campanhas de marketing de conteúdo com dicas
 #### Firebase: 
 <i> ◼ Banco de dados em tempo real fornecido pelo Google, utilizado para armazenar e sincronizar os dados da aplicação.</i>
 
+## Ferramentas Utilizadas:
+
+![image](https://user-images.githubusercontent.com/56053290/218258400-46b576f3-03c0-4557-b984-189c104e5a51.png)
+![image](https://user-images.githubusercontent.com/56053290/218258497-d0ddc8bf-a8dc-45b2-aba5-4614700e73d5.png)
+<img src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png" width="47px" />
+<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ionic-icon.png" width="45px" />
+<img src="https://karmanivero.us/assets/images/logo-vercel.png" width="55px" />
+<img src="https://seeklogo.com/images/A/angular-icon-logo-9946B9795D-seeklogo.com.png" width="45px" />
+<img src="https://img.icons8.com/color/480/firebase.png" width="45px" />
+
+
+
 ## Como executar o projeto
 
 1. Clone o repositório: `git clone https://github.com/caaiopereira/app-medconfia.git`
@@ -134,18 +146,6 @@ Campanhas de marketing de conteúdo com dicas
 3. Faça o commit das suas alterações: `git commit -am 'Adiciona nova feature'`
 4. Faça o push para a branch: `git push origin feature/minha-nova-feature`
 5. Envie uma solicitação de pull
-
-
-## Ferramentas Utilizadas:
-
-![image](https://user-images.githubusercontent.com/56053290/218258400-46b576f3-03c0-4557-b984-189c104e5a51.png)
-![image](https://user-images.githubusercontent.com/56053290/218258497-d0ddc8bf-a8dc-45b2-aba5-4614700e73d5.png)
-<img src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png" width="47px" />
-<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ionic-icon.png" width="45px" />
-<img src="https://karmanivero.us/assets/images/logo-vercel.png" width="55px" />
-<img src="https://seeklogo.com/images/A/angular-icon-logo-9946B9795D-seeklogo.com.png" width="45px" />
-<img src="https://img.icons8.com/color/480/firebase.png" width="45px" />
-
 
 
 
