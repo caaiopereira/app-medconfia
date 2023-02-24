@@ -22,10 +22,11 @@ digital e gestão de projetos, para que possamos atingir nossos objetivos de man
 #### 2 - Junto com sua equipe defina sua ideia: 
 
 ```
- A ideia da nossa startup é desenvolver o aplicativo Medconfia, uma solução que visa facilitar o agendamento de consultas médicas 
- para pessoas como Jorge, que possuem dificuldades em cuidar de sua saúde devido a problemas como alcoolismo e idade 
- avançada. O aplicativo contará com uma tela de produtos, formulário de envio de email, guardas de rotas, organização em módulos, 
- área para agendamento de exames e serviços de alerta.
+ A ideia da nossa startup é desenvolver o aplicativo Medconfia, uma solução que visa facilitar o 
+ agendamento de consultas médicas para pessoas como Jorge, que possuem dificuldades em cuidar de sua 
+ saúde devido a problemas como alcoolismo e idade avançada. O aplicativo contará com uma tela de produtos
+ formulário de envio de email, guardas de rotas, organização em módulos, área para agendamento de exames 
+ e serviços de alerta.
  ```
     
 
