@@ -160,7 +160,7 @@ Campanhas de marketing de conteúdo com dicas
 
 
 ### VITOR MIRANDA:
-
+<p> <a href="https://github.com/vitorm26" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="border-radius: 30px"></a> <a href="" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px"></a> </p>
 
 ### ACELINO JUNIOR:
 
