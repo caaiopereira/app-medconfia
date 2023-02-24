@@ -149,7 +149,7 @@ Campanhas de marketing de conteúdo com dicas
 
 ## PREVIEW:  https://app-medconfia.vercel.app
 
-<p align="center" dir="auto"><img src="https://raw.githubusercontent.com/caaiopereira/app-medconfia/main/src/assets/img/preview.PNG" /></p>
+<p align="center" dir="auto"><img src="https://raw.githubusercontent.com/caaiopereira/app-medconfia/main/src/assets/img/mobile.PNG" /></p>
 
 
 
