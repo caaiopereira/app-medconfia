@@ -149,20 +149,32 @@ Campanhas de marketing de conteúdo com dicas
 ## GRUPO:
 
 ### CAIO PEREIRA:
-<p><a href="https://github.com/caaiopereira" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="border-radius: 30px"></a> <a href="https://www.linkedin.com/in/caio-pereira-oliveira" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px"></a> </p>
+<p>
+ <a href="https://github.com/caaiopereira" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png" width="47px"></a> 
+ <a href="https://www.linkedin.com/in/caio-pereira-oliveira" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="47px"></a> 
+</p>
 
 ### DANILO FREITAS:
-<p> <a href="https://github.com/danilofreitas25" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="border-radius: 30px"></a> <a href="https://www.linkedin.com/in/danilo-c%C3%A2ndido-lima-freitas-841a0a249/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px"></a> </p>
-
+<p> 
+ <a href="https://github.com/danilofreitas25" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png" width="47px"></a> 
+ <a href="https://www.linkedin.com/in/danilo-c%C3%A2ndido-lima-freitas-841a0a249/"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="47px"></a></p>
 
 ### KHADIJA NASCIMENTO:
-<p> <a href="https://github.com/dijabraz" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="border-radius: 30px"></a> <a href="https://www.linkedin.com/in/khadija-braz/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px"></a> </p>
-
+<p>
+ <a href="https://github.com/dijabraz" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png" width="47px"></a> 
+ <a href="https://www.linkedin.com/in/khadija-braz/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="47px"></a> 
+</p>
 
 ### VITOR MIRANDA:
-<p> <a href="https://github.com/vitorm26" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="border-radius: 30px"></a> <a href="" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px"></a> </p>
+<p> 
+  <a href="https://github.com/vitorm26" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png" width="47px"></a> 
+  <a href="" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="47px"></a>
+</p>
 
 ### ACELINO JUNIOR:
-<p> <a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="border-radius: 30px"></a> <a href="https://www.linkedin.com/in/acelino-j%C3%BAnior-295360235/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px"></a> </p>
+<p> 
+  <a href="" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png" width="47px"></a> 
+  <a href="https://www.linkedin.com/in/acelino-j%C3%BAnior-295360235/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="47px"></a> 
+</p>
 
 
