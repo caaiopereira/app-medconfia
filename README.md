@@ -1,4 +1,4 @@
-# Projeto Final - Técnico em Informática<br> 
+# Projeto Final - Técnico em Informática 2021.2<br> 
 **PROJETO INTEGRADOR: DESENVOLVER UM PRODUTO INOVADOR**<br> 
 
 <p align="center" dir="auto">
@@ -110,9 +110,13 @@ Campanhas de marketing de conteúdo com dicas
 #### AUTOGUARD: 
 <i> ◼ Autenticação automática para usuários logados.</i>
 
+#### SUPORTE: 
+<i> ◼ Permite que o usuário faça requisições para o suporte do aplicativo, informando o nome da clínica e o nome da pessoa.</i>
+
 ## Banco de Dados
 
-Todos os dados armazenados foram utilizados o Firebase como banco de dados.
+#### Firebase: 
+<i> ◼ Banco de dados em tempo real fornecido pelo Google, utilizado para armazenar e sincronizar os dados da aplicação.</i>
 
 ## Como executar o projeto
 
@@ -129,7 +133,7 @@ Todos os dados armazenados foram utilizados o Firebase como banco de dados.
 5. Envie uma solicitação de pull
 
 
-<h1>Ferramentas Utilizadas:</h1><br> 
+## Ferramentas Utilizadas:
 
 ![image](https://user-images.githubusercontent.com/56053290/218258400-46b576f3-03c0-4557-b984-189c104e5a51.png)
 ![image](https://user-images.githubusercontent.com/56053290/218258497-d0ddc8bf-a8dc-45b2-aba5-4614700e73d5.png)
@@ -142,9 +146,16 @@ Todos os dados armazenados foram utilizados o Firebase como banco de dados.
 
 
 
-<h1>GRUPO:</h1><br> 
-Danilo Freitas
-Caio Pereira
-Khadija Nascimento
-Vitor Miranda 
-Acelino Junior
+## GRUPO:
+
+### DANILO FREITAS:
+
+### CAIO PEREIRA:
+<p>  <a href="https://github.com/caaiopereira" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="border-radius: 30px"></a> <a href="https://www.linkedin.com/in/caio-pereira-oliveira" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px"></a> </p>
+
+### KHADIJA NASCIMENTO:
+
+### VITOR MIRANDA:
+
+
+### ACELINO JUNIOR:
