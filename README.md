@@ -56,7 +56,7 @@ cuidar de sua saúde. Nosso aplicativo Medconfia irá oferecer uma interface int
 área específica para agendamento de exames e serviços de alerta para lembretes de consultas e exames.
 ```
 
-####Formas de divulgar o negócio:
+#### Formas de divulgar o negócio:
 ```
 Anúncios em redes sociais direcionados ao público alvo
 Parcerias com clínicas e hospitais
