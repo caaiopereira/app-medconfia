@@ -65,56 +65,50 @@ Campanhas de marketing de conteúdo com dicas
 
 ## Funcionalidades
 
-#### Agendamentos: 
-<i>Permite que o usuário agende sua consulta médica escolhendo a clínica desejada, data e horário</i>
+#### AGENDAMENTO: 
+<i> ◼ Permite que o usuário agende sua consulta médica escolhendo a clínica desejada, data e horário</i>
 
-#### Histórico: 
-<i>Permite ao usuário acessar todas as consultas agendadas anteriormente</i>
+#### HISTÓRICO: 
+<i> ◼ Permite ao usuário acessar todas as consultas agendadas anteriormente</i>
 
-#### Clínicas: 
-> Mostra todas as clínicas parceiras do aplicativo, com opção de adicionar, atualizar e excluir clínicas;
+#### CLÍNICAS: 
+<i> ◼ Mostra todas as clínicas parceiras do aplicativo, com opção de adicionar, atualizar e excluir clínicas</i>
 
-#### Perfil: 
->- Permite ao usuário atualizar suas informações pessoais;
+#### PERFIL: 
+<i> ◼ Permite ao usuário atualizar suas informações pessoais</i>
 
-#### Suporte: 
->- Permite que o usuário faça requisições para o suporte do aplicativo, informando o nome da clínica e o nome da pessoa;
+#### SUPORTE: 
+<i> ◼ Permite que o usuário faça requisições para o suporte do aplicativo, informando o nome da clínica e o nome da pessoa</i>
 
-#### Formulário de envio de email: 
->- Permite o envio de email diretamente pelo aplicativo;
+#### ORGANIZAÇÃO DOS MÓDULOS: 
+<i> ◼ Organização da aplicação em módulos para uma melhor manutenção</i>
 
-#### Guardas de rotas: 
->- Controle de acesso às rotas do aplicativo;
+#### LAYOUT: 
+<i> ◼ Desenvolvimento do layout da aplicação com foco na usabilidade e praticidade</i>
 
-#### Organização em módulos: 
->- Organização da aplicação em módulos para uma melhor manutenção;
+#### WIREFRAME: 
+<i> ◼ Criação do esqueleto da aplicação para facilitar o desenvolvimento e alinhamento com o cliente</i>
 
-#### Layout: 
->- Desenvolvimento do layout da aplicação com foco na usabilidade e praticidade;
+#### CADASTRO DE CLIENTE: 
+<i> ◼ Permite ao usuário cadastrar-se no aplicativo</i>
 
-#### Wireframe: 
->- Criação do esqueleto da aplicação para facilitar o desenvolvimento e alinhamento com o cliente;
+#### ALERTAS: 
+<i> ◼ Exibe mensagens de alerta ao usuário</i>
 
-#### Cadastro de cliente: 
->- Permite ao usuário cadastrar-se no aplicativo;
+#### LOGO DO APLICATIVO: 
+<i> ◼ Criação do logotipo do aplicativo</i>
 
-#### Serviço de alert: 
->- Exibe mensagens de alerta ao usuário;
+#### SLIDE DE APRESENTAÇÃO: 
+<i> ◼ Desenvolvimento do slide de apresentação para novos usuários</i>
 
-#### Logotipo do aplicativo: 
->- Criação do logotipo do aplicativo;
+#### SERVIÇO DE LOGIN: 
+<i> ◼ Desenvolvimento do serviço de autenticação e login</i>
 
-#### Slide de apresentação de novos usuários: 
->- Desenvolvimento do slide de apresentação para novos usuários;
+#### RECUPERAÇÃO DE SENHA: 
+<i> ◼ Permite ao usuário recuperar sua senha</i>
 
-#### Serviço e login: 
->- Desenvolvimento do serviço de autenticação e login;
-
-#### Recuperação de senha: 
->- Permite ao usuário recuperar sua senha;
-
-#### Autoguard: 
->- Autenticação automática para usuários logados.
+#### AUTOGUARD: 
+<i> ◼ Autenticação automática para usuários logados.</i>
 
 ## Banco de Dados
 
