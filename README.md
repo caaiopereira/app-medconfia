@@ -1,7 +1,6 @@
 # Projeto Final - Técnico em Informática<br> 
 **PROJETO INTEGRADOR: DESENVOLVER UM PRODUTO INOVADOR**<br> 
 
-
 <p align="center" dir="auto">
 <img  src="https://raw.githubusercontent.com/caaiopereira/app-medconfia/main/src/assets/img/logo.png" /> 
 </p>
@@ -11,57 +10,129 @@
 
 <h3>◼ Startup</h3>
 
-1 - Em primeiro lugar comece montando sua equipe. A montagem de uma equipe pode definir o sucesso ou o insucesso da sua startup:<br>
+#### 1 - Em primeiro lugar comece montando sua equipe. A montagem de uma equipe pode definir o sucesso ou o insucesso da sua startup: 
 
-2 - Junto com sua equipe elabore um documento contendo:<br> 
-    ◼  Defina sua ideia:<br>
->- Pense que todo produto inovador precisa resolver um problema<br>
->- Pesquise com sua equipe um problema que vocês irão resolver?<br>    
+```
+Para a nossa startup, iremos buscar uma equipe que possua experiência em desenvolvimento de aplicativos móveis, com habilidades em 
+linguagens como Angular, Ionic e Firebase para construção do nosso app Medconfia. Além disso, é importante ter em nossa equipe um 
+profissional com experiência em marketing digital e gestão de projetos, para que possamos atingir nossos objetivos de maneira 
+eficaz
+```
+ 
+#### 2 - Junto com sua equipe defina sua ideia: 
+
+```
+ A ideia da nossa startup é desenvolver o aplicativo Medconfia, uma solução que visa facilitar o agendamento de consultas médicas 
+ para pessoas como Jorge, que possuem dificuldades em cuidar de sua saúde devido a problemas como alcoolismo e idade 
+ avançada. O aplicativo contará com uma tela de produtos, formulário de envio de email, guardas de rotas, organização em módulos, 
+ área para agendamento de exames e serviços de alerta.
+ ```
     
-3 - Público Alvo:<br>
-◼ Pesquise sobre seus potenciais clientes<br>
-◼ Defina a persona Ideal e  monte um mapa de empatia:<br>
->- Defina o que ele sente?<br>
->- O que ele ouve?<br>
->- O que vê?<br>
->- O que fala e faz?<br>
->- Quais são as dores e suas necessidades?<br>
 
+#### 3 - Público Alvo:
+```
+Nosso público alvo são pessoas que possuem dificuldades em cuidar de sua saúde devido a problemas como alcoolismo, idade avançada, 
+falta de tempo e/ou interesse. Nossa persona ideal é o Jorge, um senhor aposentado, mas ainda apto às atividades diárias, que 
+frequenta diariamente a sua firma de dedetização que trabalhou ao longo de anos e o bar que fica localizado na esquina de sua casa.
+Jorge possui uma família preocupada com sua saúde, que cuida de marcação de consultas, organiza os exames e remédios necessários 
+por conta de seu vício e idade avançada.
+``` 
 
-4 - Identifique seus principais concorrentes<br>
->- Formas de divulgar o negócio<br>
->- Formas de atingir o público alvo<br>
->- Como fidelizar o cliente<br>
+#### Mapa de Empatia:
+``` 
+O que Jorge sente? Preocupação com a saúde e falta de tempo
+O que ele ouve? Sugestões e recomendações da família e amigos
+O que ele vê? Dificuldades em marcar consultas e organizar exames
+O que fala e faz? Fala sobre seus problemas de saúde e frequenta diariamente sua firma e o bar
+Quais são as dores e suas necessidades? Dificuldades em cuidar da saúde devido a problemas como alcoolismo e idade avançada, 
+necessidade de uma solução prática para agendar consultas médicas.
+```
 
+#### 4 - Identifique seus principais concorrentes
+```
+Nossos principais concorrentes são aplicativos de agendamento de consultas médicas como o Doctoralia e o BoaConsulta. Porém, 
+nossa proposta de valor é oferecer uma solução mais simples e prática para pessoas como Jorge, que possuem dificuldades em 
+cuidar de sua saúde. Nosso aplicativo Medconfia irá oferecer uma interface intuitiva e fácil de usar, além de contar com uma 
+área específica para agendamento de exames e serviços de alerta para lembretes de consultas e exames.
+```
 
-<hr>
-<h3>◼ Etapas do Projeto</h3>
+####Formas de divulgar o negócio:
+```
+Anúncios em redes sociais direcionados ao público alvo
+Parcerias com clínicas e hospitais
+Campanhas de marketing de conteúdo com dicas
+```
 
-1 - Desenvolver a lista de funcionalidade do Projeto<br>
->- Diagrama de Cores<br>
->- Desenvolver a tela de produtos<br>
->- Criar um formulário com envio de email<br>
->- Desenvolver guardas de rotas<br>
->- Organizar a aplicação em módulo<br>
->- Criar uma área para agendamento de exames<br>
->- Desenvolver o Layout<br>
->- Wireframe<br>
->- Cadastro de Cliente<br>
->- Criar serviço de alert<br>
->- Logotipo do app<br>
->- Desenvolvimento do slide de apresentação de novos usuários<br>
->- Criação do serviço e Login<br>
->- Esqueci minha senha<br>
->- Router Autoguard<br>
+## Funcionalidades
 
-2 - Migrar o banco de dados do APP para o Firebase<br>
->- Criar o projeto no firebase<br>
->- Criar um app dentro do projeto<br>
->- Ativar o firestore Database<br>
->- Configurar o arquivo envirorments do Projeto Ionic (Colar as informações do App Firebase)<br>
->- Alterar a opção strict para false dentro do arquivo tsconfig.json<br>
->- Criar o serviço para manipulação de banco de dados<br>
->- Implementar o firebase<br>
+#### Agendamentos: 
+<i>Permite que o usuário agende sua consulta médica escolhendo a clínica desejada, data e horário</i>
+
+#### Histórico: 
+<i>Permite ao usuário acessar todas as consultas agendadas anteriormente</i>
+
+#### Clínicas: 
+> Mostra todas as clínicas parceiras do aplicativo, com opção de adicionar, atualizar e excluir clínicas;
+
+#### Perfil: 
+>- Permite ao usuário atualizar suas informações pessoais;
+
+#### Suporte: 
+>- Permite que o usuário faça requisições para o suporte do aplicativo, informando o nome da clínica e o nome da pessoa;
+
+#### Formulário de envio de email: 
+>- Permite o envio de email diretamente pelo aplicativo;
+
+#### Guardas de rotas: 
+>- Controle de acesso às rotas do aplicativo;
+
+#### Organização em módulos: 
+>- Organização da aplicação em módulos para uma melhor manutenção;
+
+#### Layout: 
+>- Desenvolvimento do layout da aplicação com foco na usabilidade e praticidade;
+
+#### Wireframe: 
+>- Criação do esqueleto da aplicação para facilitar o desenvolvimento e alinhamento com o cliente;
+
+#### Cadastro de cliente: 
+>- Permite ao usuário cadastrar-se no aplicativo;
+
+#### Serviço de alert: 
+>- Exibe mensagens de alerta ao usuário;
+
+#### Logotipo do aplicativo: 
+>- Criação do logotipo do aplicativo;
+
+#### Slide de apresentação de novos usuários: 
+>- Desenvolvimento do slide de apresentação para novos usuários;
+
+#### Serviço e login: 
+>- Desenvolvimento do serviço de autenticação e login;
+
+#### Recuperação de senha: 
+>- Permite ao usuário recuperar sua senha;
+
+#### Autoguard: 
+>- Autenticação automática para usuários logados.
+
+## Banco de Dados
+
+Todos os dados armazenados foram utilizados o Firebase como banco de dados.
+
+## Como executar o projeto
+
+1. Clone o repositório: `git clone https://github.com/caaiopereira/app-medconfia.git`
+2. Instale as dependências: `npm install`
+3. Inicie o servidor: `ionic serve`
+
+## Contribuindo
+
+1. Faça o fork do projeto
+2. Crie sua branch de recursos: `git checkout -b feature/minha-nova-feature`
+3. Faça o commit das suas alterações: `git commit -am 'Adiciona nova feature'`
+4. Faça o push para a branch: `git push origin feature/minha-nova-feature`
+5. Envie uma solicitação de pull
 
 
 <h1>Ferramentas Utilizadas:</h1><br> 
