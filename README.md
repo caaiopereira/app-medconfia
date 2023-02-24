@@ -149,15 +149,20 @@ Campanhas de marketing de conteúdo com dicas
 ## GRUPO:
 
 ### CAIO PEREIRA:
-<p>  <a href="https://github.com/caaiopereira" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="border-radius: 30px"></a> <a href="https://www.linkedin.com/in/caio-pereira-oliveira" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px"></a> </p>
+<p><a href="https://github.com/caaiopereira" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="border-radius: 30px"></a> <a href="https://www.linkedin.com/in/caio-pereira-oliveira" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px"></a> </p>
 
 ### DANILO FREITAS:
-<p>  <a href="https://github.com/danilofreitas25" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="border-radius: 30px"></a> <a href="https://www.linkedin.com/in/danilo-c%C3%A2ndido-lima-freitas-841a0a249/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px"></a> </p>
+<p> <a href="https://github.com/danilofreitas25" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="border-radius: 30px"></a> <a href="https://www.linkedin.com/in/danilo-c%C3%A2ndido-lima-freitas-841a0a249/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px"></a> </p>
 
 
 ### KHADIJA NASCIMENTO:
+<p> <a href="https://github.com/dijabraz" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="border-radius: 30px"></a> <a href="https://www.linkedin.com/in/khadija-braz/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px"></a> </p>
+
 
 ### VITOR MIRANDA:
 
 
 ### ACELINO JUNIOR:
+
+
+
