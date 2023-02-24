@@ -14,7 +14,7 @@
 
 ```
 Para a nossa startup, iremos buscar uma equipe que possua experiência em desenvolvimento de aplicativos 
-móveis, com habilidades em linguagens como Angular, Ionic e Firebase para construção do nosso app Medconfia. 
+móveis, com habilidades em linguagens como Angular, Ionic e Firebase para construção do nosso app Medconfia 
 Além disso, é importante ter em nossa equipe um profissional com experiência em marketing digital e gestão 
 de projetos, para que possamos atingir nossos objetivos de maneira eficaz
 ```
