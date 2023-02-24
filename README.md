@@ -32,10 +32,11 @@ digital e gestão de projetos, para que possamos atingir nossos objetivos de man
 
 #### 3 - Público Alvo:
 ```
-Nosso público alvo são pessoas que possuem dificuldades em cuidar de sua saúde devido a problemas como alcoolismo, idade avançada, 
-falta de tempo e/ou interesse. Nossa persona ideal é o Jorge, um senhor aposentado, mas ainda apto às atividades diárias, que 
-frequenta diariamente a sua firma de dedetização que trabalhou ao longo de anos e o bar que fica localizado na esquina de sua casa.
-Jorge possui uma família preocupada com sua saúde, que cuida de marcação de consultas, organiza os exames e remédios necessários 
+Nosso público alvo são pessoas que possuem dificuldades em cuidar de sua saúde devido a problemas como 
+alcoolismo, idade avançada, falta de tempo e/ou interesse. Nossa persona ideal é o Jorge, um senhor 
+aposentado, mas ainda apto às atividades diárias, que frequenta diariamente a sua firma de dedetização que 
+trabalhou ao longo de anos e o bar que fica localizado na esquina de sua casa. Jorge possui uma família 
+preocupada com sua saúde, que cuida de marcação de consultas, organiza os exames e remédios necessários 
 por conta de seu vício e idade avançada.
 ``` 
 
@@ -45,16 +46,17 @@ O que Jorge sente? Preocupação com a saúde e falta de tempo
 O que ele ouve? Sugestões e recomendações da família e amigos
 O que ele vê? Dificuldades em marcar consultas e organizar exames
 O que fala e faz? Fala sobre seus problemas de saúde e frequenta diariamente sua firma e o bar
-Quais são as dores e suas necessidades? Dificuldades em cuidar da saúde devido a problemas como alcoolismo e idade avançada, 
-necessidade de uma solução prática para agendar consultas médicas.
+Quais são as dores e suas necessidades? Dificuldades em cuidar da saúde devido a problemas como alcoolismo 
+e idade avançada, necessidade de uma solução prática para agendar consultas médicas.
 ```
 
 #### 4 - Identifique seus principais concorrentes
 ```
-Nossos principais concorrentes são aplicativos de agendamento de consultas médicas como o Doctoralia e o BoaConsulta. Porém, 
-nossa proposta de valor é oferecer uma solução mais simples e prática para pessoas como Jorge, que possuem dificuldades em 
-cuidar de sua saúde. Nosso aplicativo Medconfia irá oferecer uma interface intuitiva e fácil de usar, além de contar com uma 
-área específica para agendamento de exames e serviços de alerta para lembretes de consultas e exames.
+Nossos principais concorrentes são aplicativos de agendamento de consultas médicas como o Doctoralia e o 
+BoaConsulta. Porém, nossa proposta de valor é oferecer uma solução mais simples e prática para pessoas como 
+Jorge, que possuem dificuldades em cuidar de sua saúde. Nosso aplicativo Medconfia irá oferecer uma interface 
+intuitiva e fácil de usar, além de contar com uma área específica para agendamento de exames e serviços de alerta 
+para lembretes de consultas e exames.
 ```
 
 #### Formas de divulgar o negócio:
