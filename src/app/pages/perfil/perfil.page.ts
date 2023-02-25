@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FirebaseService } from 'src/servico/firebase.service';
 import { Clientes } from 'src/model/clientes.model';
-import { AlertController, MenuController } from '@ionic/angular';
+import { MenuController } from '@ionic/angular';
 import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
 import { AuthService } from 'src/servico/auth.service';
@@ -34,11 +34,10 @@ export class PerfilPage implements OnInit {
     }
 
     async deletar(uid:string){
-            this.AuthService.deleteUser(uid);
               try{
                 Swal.fire({
                   title: 'Atenção!',
-                  text: "Tem certeza que deseja fazer a exclusaõ do seu perfil? Será redicionado para a página inicial!",
+                  text: "Tem certeza que deseja fazer a exclusão do seu perfil? Será redicionado para a página inicial!",
                   icon: 'warning',
                   showCancelButton: true,
                   confirmButtonColor: '#3085d6',
@@ -48,18 +47,13 @@ export class PerfilPage implements OnInit {
                 }).then(async (result) => {
                   if (result.isConfirmed) {
                     this.Menu.enable(false);
+                    this.AuthService.deleteUser(uid);
                     this.ClientesBase.deletar(uid);
+                    await this.AuthService.logoutUser();
                   }
-                }) ; 
+                }); 
               }catch(error){
                 console.error(error);
-              }finally{
-              await this.AuthService.logoutUser();
-              }                    
+              }                  
             }
-                  
-      
-     
-    
-
 }
