@@ -1,4 +1,4 @@
-# Projeto Final - Técnico em Informática 2021.2<br> 
+# PROJETO FINAL - Técnico em Informática 2021.2<br> 
 **PROJETO INTEGRADOR: DESENVOLVER UM PRODUTO INOVADOR**<br> 
 
 <p align="center" dir="auto">
