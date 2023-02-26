@@ -183,6 +183,6 @@ Campanhas de marketing de conteúdo com dicas
 <p> 
   <a href="" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png" width="47px"></a> 
   <a href="https://www.linkedin.com/in/acelino-j%C3%BAnior-295360235/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="47px"></a> 
-</p>
+ </p>
 
 
