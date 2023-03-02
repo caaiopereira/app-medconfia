@@ -1,5 +1,5 @@
 # PROJETO FINAL - Técnico em Informática 2021.2<br> 
-**PROJETO INTEGRADOR: DESENVOLVER UM PRODUTO INOVADOR** <br> 
+**PROJETO INTEGRADOR: DESENVOLVER UM PRODUTO INOVADOR**<br> 
 
 <p align="center" dir="auto">
 <img  src="https://raw.githubusercontent.com/caaiopereira/app-medconfia/main/src/assets/img/logo.png" /> 
