@@ -117,7 +117,7 @@ Campanhas de marketing de conteúdo com dicas
 <i> ◼ Permite que o usuário faça requisições para o suporte do aplicativo, informando o nome da clínica e o nome da pessoa.</i>
 
 #### ID UNICO: (EM DESENVOLIVMENTO)
-<i> ◼ Em breve, será implementada uma nova funcionalidade no aplicativo Medconfia que permitirá a exibição do ID do usuário logado na interface do usuário. Essa funcionalidade será desenvolvida utilizando o SDK do Firebase e será integrada ao serviço de autenticação do aplicativo. Com a exibição do ID do usuário, os clientes poderão ter mais controle e transparência sobre as suas informações no aplicativo. Além disso, essa funcionalidade também pode ser útil para fins de suporte e atendimento ao cliente, permitindo identificar de forma rápida e precisa o usuário que está com algum problema ou dúvida.</i>
+<i> ◼ Em breve, será implementada uma nova funcionalidade no aplicativo Medconfia que permitirá a exibição do ID do usuário logado na interface do usuário. Essa funcionalidade será desenvolvida utilizando o SDK do Firebase e será integrada ao serviço de autenticação do aplicativo. Com a exibição do ID do usuário, os clientes poderão ter mais controle e transparência sobre as suas informações no aplicativo.</i>
 
 ## Banco de Dados
 
