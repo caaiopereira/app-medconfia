@@ -155,8 +155,6 @@ Campanhas de marketing de conteúdo com dicas
 <p align="center" dir="auto"><img src="https://raw.githubusercontent.com/caaiopereira/app-medconfia/main/src/assets/img/mobile.PNG" /></p>
 
 
-
-
 ## GRUPO:
 
 ### CAIO PEREIRA:
