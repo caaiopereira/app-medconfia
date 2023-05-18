@@ -127,7 +127,7 @@ Campanhas de marketing de conteúdo com dicas
 ![image](https://user-images.githubusercontent.com/56053290/218258400-46b576f3-03c0-4557-b984-189c104e5a51.png)
 ![image](https://user-images.githubusercontent.com/56053290/218258497-d0ddc8bf-a8dc-45b2-aba5-4614700e73d5.png)
 <img src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png" width="47px" />
-<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ionic-icon.png" width="45px" />
+<img src="https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/ionic-icon.png" width="45px" />
 <img src="https://karmanivero.us/assets/images/logo-vercel.png" width="55px" />
 <img src="https://seeklogo.com/images/A/angular-icon-logo-9946B9795D-seeklogo.com.png" width="45px" />
 <img src="https://img.icons8.com/color/480/firebase.png" width="45px" />
